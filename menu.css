@@ -23,3 +23,25 @@ button{
     padding: 10px;
 
 }
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#nav-bar {
+    position: absolute;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:teal; 
+   
+};
+
+.hide{
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+}
